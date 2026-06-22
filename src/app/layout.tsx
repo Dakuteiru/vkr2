@@ -26,11 +26,9 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body
-          style={{margin: "0 auto !important", padding: "0 !important", overflow: "auto !important"}}
-      >
+      <body>
       <Header/>
-      <div className={"flex flex-col max-w-[1280px] w-full"}>
+      <div>
         {children}
       </div>
       <Footer/>
