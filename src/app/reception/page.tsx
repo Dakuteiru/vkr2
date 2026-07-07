@@ -1,4 +1,4 @@
-import example from "@/features/example";
+
 import "@/features/test1.css"
 import {TeacherDesc} from "@/features/Teacher/TeacherDesc";
 import {ReceptionOnTeach} from "@/features/Teacher/ReceptionOnTeach";

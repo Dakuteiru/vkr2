@@ -1,6 +1,5 @@
 import example from "@/features/example";
 import "@/features/test1.css"
-import banner from "@/pictures/Top.jpg"
 const name = "@/pictures/Top.jpg";
 const page = () => {
     return (

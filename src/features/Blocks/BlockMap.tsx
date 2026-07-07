@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import {images} from "next/dist/build/webpack/config/blocks/images";
 import {cn} from "tailwind-cn";
 interface BlockMapInfo {
     blocks: {

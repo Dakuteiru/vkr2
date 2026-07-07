@@ -1,5 +1,4 @@
-import Image from "next/image";
-import banner from "@/pictures/banner.jpg"
+
 interface BlockInfo {
     blockInformatino: {
         blockTitle?: string;

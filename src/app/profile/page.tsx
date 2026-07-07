@@ -1,8 +1,7 @@
-import example from "@/features/example";
+
 
 import "@/features/test1.css"
 import Student from "@/features/Students/Student";
-import banner from "@/pictures/banner.jpg"
 import Block from "@/features/Blocks/Block";
 import BlockMap from "@/features/Blocks/BlockMap";
 

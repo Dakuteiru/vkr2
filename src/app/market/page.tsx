@@ -1,4 +1,3 @@
-import example from "@/features/example";
 import "@/features/test1.css"
 
 const page = () => {

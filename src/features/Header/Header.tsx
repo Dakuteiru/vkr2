@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-
 
 const Header = () => {
     return (
@@ -20,7 +18,8 @@ const Header = () => {
                     <Link href="/market">Market</Link>
                 </div>
                 <div className="hover:text-foreground">
-                    Payment
+
+                    <Link href="/payment">Payment</Link>
                 </div>
                 <div className="hover:text-foreground">
                     <Link href="/profile">Profile</Link>
