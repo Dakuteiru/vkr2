@@ -25,7 +25,9 @@ const Header = () => {
                     <Link href="/profile">Profile</Link>
                 </div>
             </div>
-
+            <div className="hover:text-foreground">
+                <Link href="/debug_test" className="text-white border-4 border-black bg-blue-600">Test</Link>
+            </div>
         </>
     )
 }

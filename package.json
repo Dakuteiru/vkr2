@@ -9,10 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.7.1",
+    "axios": "^1.19.0",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "tailwind-cn": "^1.0.3"
+    "react-hook-form": "^7.84.0",
+    "react-router-dom": "^7.18.2",
+    "react-toastify": "^11.1.0",
+    "tailwind-cn": "^1.0.3",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

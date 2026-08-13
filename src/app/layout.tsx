@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { UserProvider } from "@/Context/userAuth";
 import "./globals.css";
 import Header from "@/features/Header/Header";
 import Footer from "@/features/Footer/Footer";
@@ -29,7 +30,9 @@ export default function RootLayout({
       <body>
       <Header/>
       <div>
-        {children}
+          <UserProvider>
+              {children}
+          </UserProvider>
       </div>
       <Footer/>
       </body>
